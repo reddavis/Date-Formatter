@@ -9,3 +9,4 @@ A little app to help with NSDateFormmater date formats
 
 ## Download
 
+http://taylorswift.ly/LGcs
