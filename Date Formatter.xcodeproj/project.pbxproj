@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4B7639016693A8900CFD92D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B7638F16693A8900CFD92D /* Cocoa.framework */; };
+		A4B7639A16693A8900CFD92D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4B7639816693A8900CFD92D /* InfoPlist.strings */; };
+		A4B7639C16693A8900CFD92D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B7639B16693A8900CFD92D /* main.m */; };
+		A4B763A016693A8900CFD92D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A4B7639E16693A8900CFD92D /* Credits.rtf */; };
+		A4B763A316693A8900CFD92D /* DFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B763A216693A8900CFD92D /* DFAppDelegate.m */; };
+		A4B763A616693A8900CFD92D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B763A416693A8900CFD92D /* MainMenu.xib */; };
+		A4B763AD16693A9700CFD92D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B763AC16693A9700CFD92D /* QuartzCore.framework */; };
+		A4B763BE16693B6000CFD92D /* DFMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B763BC16693B6000CFD92D /* DFMainWindowController.m */; };
+		A4B763BF16693B6000CFD92D /* DFMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B763BD16693B6000CFD92D /* DFMainWindowController.xib */; };
+		A4B763C416693C2100CFD92D /* DFDateFormatterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B763C216693C2100CFD92D /* DFDateFormatterViewController.m */; };
+		A4B763C516693C2100CFD92D /* DFDateFormatterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B763C316693C2100CFD92D /* DFDateFormatterViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4B7638B16693A8900CFD92D /* Date Formatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Date Formatter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B7638F16693A8900CFD92D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A4B7639216693A8900CFD92D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A4B7639316693A8900CFD92D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A4B7639416693A8900CFD92D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4B7639716693A8900CFD92D /* Date Formatter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Date Formatter-Info.plist"; sourceTree = "<group>"; };
+		A4B7639916693A8900CFD92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4B7639B16693A8900CFD92D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4B7639D16693A8900CFD92D /* Date Formatter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Date Formatter-Prefix.pch"; sourceTree = "<group>"; };
+		A4B7639F16693A8900CFD92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A4B763A116693A8900CFD92D /* DFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFAppDelegate.h; sourceTree = "<group>"; };
+		A4B763A216693A8900CFD92D /* DFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFAppDelegate.m; sourceTree = "<group>"; };
+		A4B763A516693A8900CFD92D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A4B763AC16693A9700CFD92D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A4B763BB16693B6000CFD92D /* DFMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFMainWindowController.h; sourceTree = "<group>"; };
+		A4B763BC16693B6000CFD92D /* DFMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFMainWindowController.m; sourceTree = "<group>"; };
+		A4B763BD16693B6000CFD92D /* DFMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DFMainWindowController.xib; sourceTree = "<group>"; };
+		A4B763C116693C2100CFD92D /* DFDateFormatterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFDateFormatterViewController.h; sourceTree = "<group>"; };
+		A4B763C216693C2100CFD92D /* DFDateFormatterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFDateFormatterViewController.m; sourceTree = "<group>"; };
+		A4B763C316693C2100CFD92D /* DFDateFormatterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DFDateFormatterViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4B7638816693A8900CFD92D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B763AD16693A9700CFD92D /* QuartzCore.framework in Frameworks */,
+				A4B7639016693A8900CFD92D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4B7638016693A8900CFD92D = {
+			isa = PBXGroup;
+			children = (
+				A4B7639516693A8900CFD92D /* Date Formatter */,
+				A4B7638E16693A8900CFD92D /* Frameworks */,
+				A4B7638C16693A8900CFD92D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4B7638C16693A8900CFD92D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4B7638B16693A8900CFD92D /* Date Formatter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B7638E16693A8900CFD92D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4B763AC16693A9700CFD92D /* QuartzCore.framework */,
+				A4B7638F16693A8900CFD92D /* Cocoa.framework */,
+				A4B7639116693A8900CFD92D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4B7639116693A8900CFD92D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4B7639216693A8900CFD92D /* AppKit.framework */,
+				A4B7639316693A8900CFD92D /* CoreData.framework */,
+				A4B7639416693A8900CFD92D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A4B7639516693A8900CFD92D /* Date Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				A4B763A116693A8900CFD92D /* DFAppDelegate.h */,
+				A4B763A216693A8900CFD92D /* DFAppDelegate.m */,
+				A4B763A416693A8900CFD92D /* MainMenu.xib */,
+				A4B763B916693B1D00CFD92D /* Window Controllers */,
+				A4B763BA16693B2500CFD92D /* View Controllers */,
+				A4B7639616693A8900CFD92D /* Supporting Files */,
+			);
+			path = "Date Formatter";
+			sourceTree = "<group>";
+		};
+		A4B7639616693A8900CFD92D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4B7639716693A8900CFD92D /* Date Formatter-Info.plist */,
+				A4B7639816693A8900CFD92D /* InfoPlist.strings */,
+				A4B7639B16693A8900CFD92D /* main.m */,
+				A4B7639D16693A8900CFD92D /* Date Formatter-Prefix.pch */,
+				A4B7639E16693A8900CFD92D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4B763B916693B1D00CFD92D /* Window Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4B763BB16693B6000CFD92D /* DFMainWindowController.h */,
+				A4B763BC16693B6000CFD92D /* DFMainWindowController.m */,
+				A4B763BD16693B6000CFD92D /* DFMainWindowController.xib */,
+			);
+			name = "Window Controllers";
+			sourceTree = "<group>";
+		};
+		A4B763BA16693B2500CFD92D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4B763C016693C0A00CFD92D /* Date Formatter View Controller */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A4B763C016693C0A00CFD92D /* Date Formatter View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4B763C116693C2100CFD92D /* DFDateFormatterViewController.h */,
+				A4B763C216693C2100CFD92D /* DFDateFormatterViewController.m */,
+				A4B763C316693C2100CFD92D /* DFDateFormatterViewController.xib */,
+			);
+			name = "Date Formatter View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4B7638A16693A8900CFD92D /* Date Formatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B763A916693A8900CFD92D /* Build configuration list for PBXNativeTarget "Date Formatter" */;
+			buildPhases = (
+				A4B7638716693A8900CFD92D /* Sources */,
+				A4B7638816693A8900CFD92D /* Frameworks */,
+				A4B7638916693A8900CFD92D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Date Formatter";
+			productName = "Date Formatter";
+			productReference = A4B7638B16693A8900CFD92D /* Date Formatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4B7638216693A8900CFD92D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DF;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Red Davis";
+			};
+			buildConfigurationList = A4B7638516693A8900CFD92D /* Build configuration list for PBXProject "Date Formatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4B7638016693A8900CFD92D;
+			productRefGroup = A4B7638C16693A8900CFD92D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4B7638A16693A8900CFD92D /* Date Formatter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4B7638916693A8900CFD92D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B7639A16693A8900CFD92D /* InfoPlist.strings in Resources */,
+				A4B763A016693A8900CFD92D /* Credits.rtf in Resources */,
+				A4B763A616693A8900CFD92D /* MainMenu.xib in Resources */,
+				A4B763BF16693B6000CFD92D /* DFMainWindowController.xib in Resources */,
+				A4B763C516693C2100CFD92D /* DFDateFormatterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4B7638716693A8900CFD92D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B7639C16693A8900CFD92D /* main.m in Sources */,
+				A4B763A316693A8900CFD92D /* DFAppDelegate.m in Sources */,
+				A4B763BE16693B6000CFD92D /* DFMainWindowController.m in Sources */,
+				A4B763C416693C2100CFD92D /* DFDateFormatterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4B7639816693A8900CFD92D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4B7639916693A8900CFD92D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4B7639E16693A8900CFD92D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4B7639F16693A8900CFD92D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A4B763A416693A8900CFD92D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4B763A516693A8900CFD92D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4B763A716693A8900CFD92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A4B763A816693A8900CFD92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A4B763AA16693A8900CFD92D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Date Formatter/Date Formatter-Prefix.pch";
+				INFOPLIST_FILE = "Date Formatter/Date Formatter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4B763AB16693A8900CFD92D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Date Formatter/Date Formatter-Prefix.pch";
+				INFOPLIST_FILE = "Date Formatter/Date Formatter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4B7638516693A8900CFD92D /* Build configuration list for PBXProject "Date Formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B763A716693A8900CFD92D /* Debug */,
+				A4B763A816693A8900CFD92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B763A916693A8900CFD92D /* Build configuration list for PBXNativeTarget "Date Formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B763AA16693A8900CFD92D /* Debug */,
+				A4B763AB16693A8900CFD92D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4B7638216693A8900CFD92D /* Project object */;
+}

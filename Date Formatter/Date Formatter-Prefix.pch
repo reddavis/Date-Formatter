@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Date Formatter' target in the 'Date Formatter' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
