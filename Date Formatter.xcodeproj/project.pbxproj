@@ -18,6 +18,7 @@
 		A4B763BF16693B6000CFD92D /* DFMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B763BD16693B6000CFD92D /* DFMainWindowController.xib */; };
 		A4B763C416693C2100CFD92D /* DFDateFormatterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B763C216693C2100CFD92D /* DFDateFormatterViewController.m */; };
 		A4B763C516693C2100CFD92D /* DFDateFormatterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4B763C316693C2100CFD92D /* DFDateFormatterViewController.xib */; };
+		A4B763D21669601B00CFD92D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A4B763D11669601A00CFD92D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		A4B763C116693C2100CFD92D /* DFDateFormatterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFDateFormatterViewController.h; sourceTree = "<group>"; };
 		A4B763C216693C2100CFD92D /* DFDateFormatterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFDateFormatterViewController.m; sourceTree = "<group>"; };
 		A4B763C316693C2100CFD92D /* DFDateFormatterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DFDateFormatterViewController.xib; sourceTree = "<group>"; };
+		A4B763D11669601A00CFD92D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = "Date Formatter/README.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A4B7639516693A8900CFD92D /* Date Formatter */,
 				A4B7638E16693A8900CFD92D /* Frameworks */,
 				A4B7638C16693A8900CFD92D /* Products */,
+				A4B763D11669601A00CFD92D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,6 +206,7 @@
 				A4B763A616693A8900CFD92D /* MainMenu.xib in Resources */,
 				A4B763BF16693B6000CFD92D /* DFMainWindowController.xib in Resources */,
 				A4B763C516693C2100CFD92D /* DFDateFormatterViewController.xib in Resources */,
+				A4B763D21669601B00CFD92D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
